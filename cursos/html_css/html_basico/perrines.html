@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sobre perros</title>
+  </head>
+  <body>
+    <main>
+      <h1>Perro doméstico</h1>
+      <section>
+        <h2>Canis familiaris</h2>
+        <!-- TODO: Agregar link a las fotos de perros -->
+        <p>Mamífero carnívoro de la familia de los <a target="_blank" href="https://es.wikipedia.org/wiki/Canidae">cánidos</a>, proviene de un grupo ancestral común que data de hace aproximadamente treinta mil años, y desde entonces se ha extendido a todas partes del mundo.</p>
+        <a href="https://www.excelsior.com.mx/de-la-red/2017/06/01/1167101"><img src="https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2017/06/01/1686179.jpg" alt="Perro criollo"></a>
+      </section>
+      <section>
+        <h2>Vacunas en perros</h2>
+        <h3>Vacunas obligatorias:</h3>
+        <ul>
+          <li>Puppy: Moquillo y Parvovirus</li>
+          <li>Pentavalente: Moquillo, parvovirus, leptospira, parainfluenza, hepatitis infecciosa</li>
+          <li>Hexavalente:Moquillo, parvovirus, leptospira, parainfluenza, hepatitis infecciosa y rabia</li>
+        </ul>
+        <h3>Vacunas opcionales:</h3>
+        <ul>
+            <li>tos de las perreras</li>
+            <li>Enfermedad de Lyme</li>
+        </ul>
+        <figure>
+          <img src="https://www.eltiempo.com/files/article_main/uploads/2020/01/24/5e2b7be7035a2.jpeg" alt="Un perro siendo vacunado.">
+          <figcaption>Plan de <em>vacunación</em> </figcaption>  
+        </figure>
+        <h3>Top 5 Datos curiosos sobre los perros:</h3>
+        <ol>
+          <li>El perro fue uno de los primeros animales en ser domésticado por el humano</li>
+          <li>Su descendiente directo son los lobos</li>
+          <li>Los perros criollos padecen menos enfermedades</li>
+          <li>Los perros de talla pequeña suelen vivir más tiempo que los de talla grande</li>
+          <li>La gestación en perras dura tan sólo dos meses</li>
+        </ol>
+        <figure>
+          <img src="https://st.depositphotos.com/1007989/4620/i/600/depositphotos_46208497-stock-photo-old-dog.jpg?forcejpeg=true" alt="Perro viejo">
+          <figcaption>Perro <strong>anciano</strong></figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Preguntas sobre perros</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label>¿Cuál es el nombre de tu perro? <input type="text" name="nombredelperro" placehholder="Nombre de tu perro" required></label><button type="enviar"> Enviar</button>    
+        <fieldset>
+            <legend>¿Qué vacunas tiene tu perro?</legend>
+            <label><input id="puppy" type="radio" name="vacunas" value="puppy" checked> Puppy</label>
+            <label><input id="pentavalente" type="radio" name="vacunas" value="pentavalente"> Pentavalente</label>
+            <label><input id="hexavalente" type="radio" name="vacunas" value="hexavalente"> Hexavalente</label>
+            <label><input id="tos de las perreras" type="radio" name="vacunas" value="tos de las perreras"> Tos de las perreras</label>
+            <label><input id="enfermedad de lyme" type="radio" name="vacunas" value="enfermedad de lyme"> Enfermedad de Lyme</label>
+        </fieldset>
+        <fieldset>
+            <legend>¿Que talla es tu perro?</legend>
+            <input id="pequeña" type="checkbox" name="talla" value="pequeña" checked> <label for="Pequeño">Pequeño</label>
+            <input id="mediana" type="checkbox" name="talla" value="mediana"> <label for="mediana">Mediano</label>
+            <input id="grande" type="checkbox" name="talla" value="grande"> <label for="grande">Grande</label>
+        </fieldset>
+        <legend>Sube una foto de tu perro</legend><input type="text" name="fotodelperro" placeholder="Foto de tu perro"><button type="submit">Subir</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Copyright :)
+      </p>
+    </footer>
+  </body>
+</html>
