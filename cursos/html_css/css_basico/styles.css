@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://previews.123rf.com/images/brsav/brsav1411/brsav141100022/34072212-pan-panader%C3%ADa-patr%C3%B3n-de-fondo-sin-fisuras-etiquetas-pack-para-pan-.jpg);
+  }
+  
+h1, h2, p {
+    text-align: center;
+  }
+
+h1{
+    color:rgb(142, 114, 1)
+}
+  
+.menu {
+    width: 80%;
+    background-color: rgb(237, 232, 164);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.item p {
+    display: inline-block;
+  }
+  
+.flavor {
+    font-style: italic;
+    font-size: large;
+    text-align: left;
+    width: 70%;
+  }
+  
+.price {
+    text-align: right;
+    width: 30%
+  }
