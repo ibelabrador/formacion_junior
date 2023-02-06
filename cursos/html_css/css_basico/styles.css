@@ -1,34 +1,95 @@
 body {
-    background-image: url(https://previews.123rf.com/images/brsav/brsav1411/brsav141100022/34072212-pan-panader%C3%ADa-patr%C3%B3n-de-fondo-sin-fisuras-etiquetas-pack-para-pan-.jpg);
+  background-image: url(https://previews.123rf.com/images/brsav/brsav1411/brsav141100022/34072212-pan-panader%C3%ADa-patr%C3%B3n-de-fondo-sin-fisuras-etiquetas-pack-para-pan-.jpg);
+  }
+ 
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color:rgb(131, 64, 28)
+  }
+  
+h2 {
+  font-size: 30px;
+  }
+  
+.established {
+  font-style: italic;
   }
   
 h1, h2, p {
-    text-align: center;
+  text-align: center;
   }
-
-h1{
-    color:rgb(142, 114, 1)
-}
   
 .menu {
-    width: 80%;
-    background-color: rgb(237, 232, 164);
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 500px;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-15px
+  }
+
+hr {
+  height: 4px;
+  background-color: rgb(131, 64, 28);
+  border-color: rgb(131, 64, 28);
+  }
+  
+.bottom-line {
+  margin-top: 20px;
+  }
+  
+h1, h2 {
+  font-family: Impact, serif;
   }
   
 .item p {
-    display: inline-block;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
   }
   
-.flavor {
-    font-style: italic;
-    font-size: large;
-    text-align: left;
-    width: 70%;
+.sabor, .bebidas {
+  text-align: left;
+  width: 80%;
   }
   
-.price {
-    text-align: right;
-    width: 30%
+.precio {
+  text-align: right;
+  width: 20%;
+  }
+  
+  /* FOOTER */
+  
+footer {
+  font-size: 20px;
+  }
+  
+.address {
+  margin-bottom: 10px;
+  }
+  
+a {
+  color: black;
+  }
+  
+a:visited {
+  color: rgb(138, 31, 231);
+  }
+  
+a:hover {
+  color: rgb(233, 27, 181);
+  }
+  
+a:active {
+  color: rgb(225, 33, 33);
   }
