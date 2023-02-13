@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario de inscripción</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Formulario de inscripción</h1>
+    <p>Por favor llene este formulario con la información requerida</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Ingrese su nombre: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Ingrese su apellido: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Introduzca su correo: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Cree una nueva contraseña: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Cuenta personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Cuenta de negocios</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto los <a href="https://www.freecodecamp.org/news/terms-of-service/">términos y condiciones</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Suba una foto de perfil: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Ingrese su edad (en años): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">¿Cómo se enteró de nosotros?
+          <select id="referrer" name="referrer">
+            <option value="">(seleccione una opción)</option>
+            <option value="1">Noticias freeCodeCamp</option>
+            <option value="2">Canal de youtube de freeCodeCamp</option>
+            <option value="3">Foro de freeCodeCamp</option>
+            <option value="4">Otros</option>
+          </select>
+        </label>
+        <label for="bio">Escriba una biografía:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Me gustaría aprender a programar ..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
