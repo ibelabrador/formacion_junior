@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de evaluación</title>
+  </head>
+  <body>
+    <h1 id="title">Formulario de evaluación</h1>
+    <p id="description">En esta encuesta podrá evaluar los buenos y malos aspectos del curso</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Ingrese su nombre completo:<input id="name" type="text" name="name" required placeholder="Juanito Bonito Peloncito"></label>
+      <label for="email" id="email-label">Ingrese un correo electrónico:<input id="email" type="email" name="email" required placeholder="JuanitoBP@gmail.com"></label>
+        <label for="number" id="number-label">Ingrese su edad:<input id="number" type="number" name="age" required min="18" max="80" placeholder="Escriba su edad en años..."></label>
+      </fieldset>
+      <fieldset>
+      <label for="dropdown" required>¿Qué curso quiere evaluar?
+          <select id="dropdown" name="dropdown">
+            <option value="">(seleccione una opción)</option>
+            <option value="1">HTML:construyendo una aplicación de fotos de gatos</option>
+            <option value="2">CSS: construyendo un menú de una cafetería</option>
+            <option value="3">CSS: construyendo un conjunto de marcadores de colores</option>
+            <option value="4">HTML: construyendo formularios de registro</option>
+          </select>
+        </label>
+
+        <label for="qualification" required>Calificación general del curso</label>
+        <label for="qualification"><input id="qualification" type="radio" name="qualification" class="inline" value="uno"/> 1</label>
+        <label for="qualification"><input id="qualification" type="radio" name="qualification" class="inline" value="dos"/> 2</label>
+        <label for="qualification"><input id="qualification" type="radio" name="qualification" class="inline" value="tres"/> 3</label>
+        <label for="qualification"><input id="qualification" type="radio" name="qualification" class="inline" value="cuatro"/> 4</label>
+        <label for="qualification"><input id="qualification" type="radio" name="qualification" class="inline" value="cinco"/> 5</label>
+        
+        <label for="improve" required>Aspectos a mejorar:</label>
+        <label for="improve">Metodología<input id="improve" type="checkbox" name="improve" class="inline" value="methodology" /></label>
+        <label for="improve">Duración<input id="improve" type="checkbox" name="improve" class="inline" value="duration"/></label>
+        <label for="improve">Actividades<input id="improve" type="checkbox" name="improve" class="inline" value="activities" /></label>
+        <fieldset>
+        <label for="comments">Escriba un comentario sobre el curso evaluado</label>
+        <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Pienso que el curso es..."></textarea>
+        <input id="submit" type="submit" value="Enviar"/>
+        </fieldset>
+    </form>
+  </body>
+</html>
