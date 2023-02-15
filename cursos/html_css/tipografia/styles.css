@@ -11,7 +11,7 @@ body {
   }
   
 .label {
-    border: 2px solid black;
+    border: 2px solid rgb(205, 17, 242);
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
@@ -30,7 +30,7 @@ p {
   }
   
 .divider {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid #15f3f3;
     margin: 2px 0;
   }
   
@@ -43,7 +43,7 @@ p {
   }
   
 .large, .medium {
-    background-color: black;
+    background-color: rgb(47, 234, 244);
     border: 0;
   }
   
@@ -91,7 +91,7 @@ p {
   }
   
 .daily-value p:not(.no-divider) {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid #22ecec;
   }
 
 .note {
