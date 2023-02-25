@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
-        <title>Accessibility Quiz</title>
+        <title>Exámen primeros auxilios</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header>
             <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
-            <h1>HTML/CSS Quiz</h1>
+            <h1>BLS/ACLS Quiz</h1>
             <nav>
                 <ul>
                     <li><a href="#student-info" accesskey="s">INFO</a></li>
-                    <li><a href="#html-questions" accesskey="h">HTML</a></li>
-                    <li><a href="#css-questions" accesskey="c">CSS</a></li>
+                    <li><a href="#html-questions" accesskey="h">BLS</a></li>
+                    <li><a href="#css-questions" accesskey="c">ACLS</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
                 <section role="region" aria-labelledby="student-info">
-                    <h2 id="student-info">Student Info</h2>
+                    <h2 id="student-info">Información del estudiante</h2>
                     <div class="info">
-                        <label for="student-name">Name:</label>
+                        <label for="student-name">Nombre:</label>
                         <input type="text" name="student-name" id="student-name" />
                     </div>
                     <div class="info">
@@ -32,25 +32,24 @@
                         <input type="email" name="student-email" id="student-email" />
                     </div>
                     <div class="info">
-                        <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+                        <label for="birth-date">Fecha de nacimiento:<span class="sr-only">(Fecha de nacimiento)</span></label>
                         <input type="date" name="birth-date" id="birth-date" />
                     </div>
                 </section>
-                <section role="region" aria-labelledby="html-questions">
-                    <h2 id="html-questions">HTML</h2>
+                <section role="region" aria-labelledby="BLS-questions">
+                    <h2 id="BLS-questions">BLS</h2>
                     <div class="question-block">
                         <p>1</p>
-                        <fieldset class="question" name="html-question-one">
-                            <legend>The legend element represents a caption for the content of its
-                            parent fieldset element</legend>
+                        <fieldset class="question" name="BLS-question-one">
+                            <legend>BLS es un programa básico de atención a emergencias que contempla la capacitación en las fases de manejo de las vías aéreas, reanimación cardiopulmonar y desfibrilación externa.</legend>
                             <ul class="answers-list">
                                 <li>
                                     <label for="q1-a1">
-                                        <input type="radio" id="q1-a1" name="q1" value="true" />True</label>
+                                        <input type="radio" id="q1-a1" name="q1" value="true" />VERDADERO</label>
                                 </li>
                                 <li>
                                     <label for="q1-a2">
-                                        <input type="radio" id="q1-a2" name="q1" value="false" />False
+                                        <input type="radio" id="q1-a2" name="q1" value="false" />FALSO
                                     </label>
                                 </li>
                             </ul>
@@ -58,51 +57,51 @@
                     </div>
                     <div class="question-block">
                         <p>2</p>
-                        <fieldset class="question" name="html-question-two">
-                            <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id</legend>
+                        <fieldset class="question" name="BLS-question-two">
+                            <legend>BLS representa el nivel avanzado de preparación con el que todo profesional o proveedor de salud debe contar.</legend>
                             <ul class="answers-list">
                                 <li>
                                     <label for="q2-a1">
-                                        <input type="radio" id="q2-a1" name="q2" value="true" />True</label>
+                                        <input type="radio" id="q2-a1" name="q2" value="true" />VERDADERO</label>
                                 </li>
                                 <li>
                                     <label for="q2-a2">
-                                        <input type="radio" id="q2-a2" name="q2" value="false" />False</label>
+                                        <input type="radio" id="q2-a2" name="q2" value="false" />FALSO</label>
                                 </li>
                             </ul>
                         </fieldset>
                     </div>
                 </section>
-                <section role="region" aria-labelledby="css-questions">
-                    <h2 id="css-questions">CSS</h2>
+                <section role="region" aria-labelledby="ACLS-questions">
+                    <h2 id="ACLS-questions">ACLS</h2>
                     <div class="formrow">
                         <div class="question-block">
-                            <label for="customer">Are you a frontend developer?</label>
+                            <label for="customer">Eres un personal lego?</label>
                         </div>
                         <div class="answer">
                             <select name="customer" id="customer" required>
-                                <option value="">Select an option</option>
-                                <option value="yes">Yes</option>
+                                <option value="">Seleccione una opción</option>
+                                <option value="yes">Si</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
                         <div class="question-block">
-                            <label for="css-questions">Do you have any questions:</label>
+                            <label for="ACLS-questions">Escribe un comentario:</label>
                         </div>
                         <div class="answer">
-                            <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
+                            <textarea id="ACLS-questions" name="ACLS-questions" rows="5" cols="24" placeholder="No me gusto..."></textarea>
                         </div>
                     </div>
                 </section>
-                <button type="submit">Send</button>
+                <button type="submit">ENVIAR</button>
             </form>
         </main>
         <footer>
             <address>
             <a href="https://freecodecamp.org">freeCodeCamp</a><br />
-                San Francisco<br />
-                California<br />
-                USA
+                San Pachito<br />
+                Calodenia<br />
+                ESI
             </address>
         </footer>
   </body>
