@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hoja de Balance</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>
+                    <span class="flex">
+                        <span>AcmeWidgetCorp</span>
+                        <span>Hoja de balance</span>
+                    </span>
+                </h1>
+                <div id="years" aria-hidden="true">
+                    <span class="year">2019</span>
+                    <span class="year">2020</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <caption>Activos</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only year">2019</span></th>
+                                <th><span class="sr-only year">2020</span></th>
+                                <th class="current"><span class="sr-only year">2021</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="data">
+                                <th>Efectivo <span class="description">Efectivo disponible actualmente.</span></th>
+                                <td>$25000</td>
+                                <td>$30000</td>
+                                <td class="current">$28000</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Checking <span class="description">Cuenta principal.</span></th>
+                                <td>$54000</td>
+                                <td>$56000</td>
+                                <td class="current">$53000</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Ahorros <span class="description">Fondos reservados para emergencias.</span></th>
+                                <td>$50000</td>
+                                <td>$65000</td>
+                                <td class="current">$728000</td>
+                            </tr>
+                            <tr class="total">
+                                <th>Total <span class="sr-only">Assets</span></th>
+                                <td>$129000</td>
+                                <td>$151000</td>
+                                <td class="current">$853000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Pasivos</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only">2019</span></th>
+                                <th><span class="sr-only">2020</span></th>
+                                <th><span class="sr-only">2021</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="data">
+                                <th>Préstamo <span class="description">Saldo pendiente de nuestro préstamo inicial.</span></th>
+                                <td>$50000</td>
+                                <td>$25000</td>
+                                <td class="current">$0</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Gastos <span class="description">Gastos anuales anticipados.</span></th>
+                                <td>$20000</td>
+                                <td>$30000</td>
+                                <td class="current">$40000</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Crédito <span class="description">Saldo pendiente de la tarjeta de crédito.</span></th>
+                                <td>$50000</td>
+                                <td>$50000</td>
+                                <td class="current">$75000</td>
+                            </tr>
+                            <tr class="total">
+                                <th>Total <span class="sr-only">Liabilities</span></th>
+                                <td>$120000</td>
+                                <td>$105000</td>
+                                <td class="current">$115000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Valor neto</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only">2019</span></th>
+                                <th><span class="sr-only">2020</span></th>
+                                <th><span class="sr-only">2021</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="total">
+                                <th>Total <span class="sr-only">Net Worth</span></th>
+                                <td>$9000</td>
+                                <td>$46000</td>
+                                <td class="current">$738000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
