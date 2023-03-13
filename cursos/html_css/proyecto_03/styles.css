@@ -1,0 +1,22 @@
+.main-doc {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar{
+    text-align: left;
+    margin: auto;
+    background-color: beige;
+    font-style: italic;
+    font-size: 30px;
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+
+  }
+ 
+  
+@media (max-width: 600px){
+    
+  }  
+
